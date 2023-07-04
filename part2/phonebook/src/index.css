@@ -1,0 +1,24 @@
+.notification__container {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border-left: 10px solid; 
+}
+
+.notification__container--success {
+  border-color: rgb(90, 157, 90);
+  background-color: rgb(157, 138, 90);
+}
+
+.notification__container--error {
+  border-color: rgb(84, 23, 23);
+  background-color: rgb(25, 54, 61);
+}
+
+.notification__text--success {
+  color: rgb(0, 255, 0);
+}
+
+.notification__text--error {
+  color: rgb(255, 0, 0);
+}
